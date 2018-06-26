@@ -68,13 +68,14 @@
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\MobileInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Audio\MixLevels.cs" />
+    <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\BulletController.cs" />
+    <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\GeneralSoundController.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\MenuManager.cs" />
-    <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\RandomAnimationPoint.cs" />
-    <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\RandomParticlePoint.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Helpers\VolumeHandler.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Managers\EnemyManager.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Managers\GameOverManager.cs" />
@@ -84,7 +85,6 @@
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\3rd Party Assets\_Complete-Game\Scripts\Player\PlayerShooting.cs" />
-    <Compile Include="Assets\3rd Party Assets\Audio\Effects\CameraController.cs" />
     <Compile Include="Assets\3rd Party Assets\Dwarf Pack\Dwarves\Projectiles\Magic Missile\humanMissileTail.cs" />
     <Compile Include="Assets\3rd Party Assets\Dwarf Pack\Scripts\DestroyByTime.cs" />
     <Compile Include="Assets\3rd Party Assets\Dwarf Pack\Scripts\fadingLight.cs" />
@@ -167,8 +167,6 @@
     <Compile Include="Assets\3rd Party Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\3rd Party Assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\3rd Party Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\BulletController.cs" />
-    <Compile Include="Assets\GeneralSoundController.cs" />
     <None Include="Assets\3rd Party Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\3rd Party Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\3rd Party Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -216,10 +214,10 @@
     <None Include="Assets\3rd Party Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\3rd Party Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>I:/EntregaProgramacion/Entrega_Programacion/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>I:/EntregaProgramacion/Proyecto/Entrega_Programacion/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>I:/EntregaProgramacion/Entrega_Programacion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>I:/EntregaProgramacion/Proyecto/Entrega_Programacion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>I:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -396,7 +394,7 @@
       <HintPath>I:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>I:/EntregaProgramacion/Entrega_Programacion/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>I:/EntregaProgramacion/Proyecto/Entrega_Programacion/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>

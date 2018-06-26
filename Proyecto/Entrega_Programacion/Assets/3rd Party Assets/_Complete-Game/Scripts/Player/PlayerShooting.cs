@@ -91,29 +91,6 @@ namespace CompleteProject
 
             Rigidbody shoot = (Instantiate(proyectile, transform.position + shootRay.direction * .25f, Quaternion.LookRotation(shootRay.direction)) as GameObject).GetComponent<Rigidbody>();
             shoot.AddForce(shootRay.direction * 50f, ForceMode.Impulse);
-
-            // Perform the raycast against gameobjects on the shootable layer and if it hits something...
-           // if (Physics.Raycast(shootRay, out shootHit, range, shootableMask))
-            //{
-                // Try and find an EnemyHealth script on the gameobject hit.
-             //   EnemyHealth enemyHealth = shootHit.collider.GetComponent<EnemyHealth>();
-
-                // If the EnemyHealth component exist...
-             //   if (enemyHealth != null)
-              //  {
-            ///        // ... the enemy should take damage.
-            //        enemyHealth.TakeDamage(damagePerShot, shootHit.point);
-           //     }
-
-                // Set the second position of the line renderer to the point the raycast hit.
-            //    gunLine.SetPosition(1, shootHit.point);
-           // }
-            // If the raycast didn't hit anything on the shootable layer...
-           // else
-           // {
-                // ... set the second position of the line renderer to the fullest extent of the gun's range.
-            //    gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
-          //  }
         }
     }
 }
